@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `windows-amd64` builds of [the `amazonlinux` official image](https://hub.docker.com/_/amazonlinux) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,12 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.0.20230119.1`, `2`, `latest`](https://github.com/amazonlinux/container-images/blob/8cd3a1d4d2516e33d3b26247120ecfc8d9d01d07/Dockerfile)
--	[`2.0.20230119.1-with-sources`, `2-with-sources`, `with-sources`](https://github.com/amazonlinux/container-images/blob/b5c54379aea40f6d9a0d50af4677399d0defff7b/Dockerfile)
--	[`2018.03.0.20230124.1`, `2018.03`, `1`](https://github.com/amazonlinux/container-images/blob/8f0a44d2878669df6eea31379d796061d82c89c8/Dockerfile)
--	[`2018.03.0.20230124.1-with-sources`, `2018.03-with-sources`, `1-with-sources`](https://github.com/amazonlinux/container-images/blob/f44a38a72435f94e02fa53a30d46d7f20852b619/Dockerfile)
--	[`2022.0.20230118.3`, `2022`, `devel`](https://github.com/amazonlinux/container-images/blob/8f394a73f3747b9f1c80e98b65d1f845b2c36e36/Dockerfile)
--	[`2022.0.20230118.3-with-sources`, `2022-with-sources`, `devel-with-sources`](https://github.com/amazonlinux/container-images/blob/87e3b7a4ed4bbdeba86d64cd68fbefe3f5d7acc2/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `windows-amd64` ARCHITECTURE
+
+[![winamd64/amazonlinux build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/windows-amd64/job/amazonlinux.svg?label=winamd64/amazonlinux%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/windows-amd64/job/amazonlinux/)
 
 # Quick reference (cont.)
 
